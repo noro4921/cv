@@ -9,12 +9,23 @@ body{
 }
 
 .container-fluid{
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 28%;
 }
 
 #features{
   text-align: center;
   padding:7% 15%;
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+
 }
 
 .icon{
@@ -74,11 +85,7 @@ p{
   margin: 5% 3% 5% 0;
 
 }
-.title-image{
-  width: 60%;
-  transform: rotate(25deg);
 
-}
 
 
 #testimonials{
@@ -107,4 +114,14 @@ p{
 .press-logo{
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
 }
